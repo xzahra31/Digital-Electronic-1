@@ -1,0 +1,29 @@
+MDF Database:  version 1.0
+MDF_INFO | top | XC2C256-6-TQ144
+MACROCELL | 0 | 3 | LD0_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 2 | BTN1  | BTN0
+INPUTP | 2 | 212 | 213
+EQ | 1 | 
+   LD0 = !BTN1 & BTN0;	// (1 pt, 2 inp)
+
+MACROCELL | 0 | 2 | LD1_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 2 | BTN1  | BTN0
+INPUTP | 2 | 212 | 213
+EQ | 2 | 
+   LD1 = BTN1 & BTN0
+	# !BTN1 & !BTN0;	// (2 pt, 2 inp)
+
+MACROCELL | 0 | 5 | LD2_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 2 | BTN1  | BTN0
+INPUTP | 2 | 212 | 213
+EQ | 1 | 
+   LD2 = BTN1 & !BTN0;	// (1 pt, 2 inp)
+
+PIN | BTN0 | 64 | 16 | LVCMOS18 | 213 | 3 | 0 | 3 | 0 | 2 | 0 | 5
+PIN | BTN1 | 64 | 16 | LVCMOS18 | 212 | 3 | 0 | 3 | 0 | 2 | 0 | 5
+PIN | LD0 | 536871040 | 0 | LVCMOS18 | 217
+PIN | LD1 | 536871040 | 0 | LVCMOS18 | 218
+PIN | LD2 | 536871040 | 0 | LVCMOS18 | 214
