@@ -1,0 +1,15 @@
+V3 7
+FL /home/lab661/Documents/xzbori15/Digital-Electronic-1/Labs/04-adder/full_adder.vhd 2020/02/26.12:36:51 P.20131013
+EN work/full_adder 1582717061 \
+      FL /home/lab661/Documents/xzbori15/Digital-Electronic-1/Labs/04-adder/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/Behavioral 1582717062 \
+      FL /home/lab661/Documents/xzbori15/Digital-Electronic-1/Labs/04-adder/full_adder.vhd \
+      EN work/full_adder 1582717061 CP work/half_adder
+FL /home/lab661/Documents/xzbori15/Digital-Electronic-1/Labs/04-adder/half_adder.vhd 2020/02/26.11:42:44 P.20131013
+EN work/half_adder 1582717059 \
+      FL /home/lab661/Documents/xzbori15/Digital-Electronic-1/Labs/04-adder/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/Behavioral 1582717060 \
+      FL /home/lab661/Documents/xzbori15/Digital-Electronic-1/Labs/04-adder/half_adder.vhd \
+      EN work/half_adder 1582717059
